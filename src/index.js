@@ -23,6 +23,19 @@ app.get("", (req, res) => {
   });
 });
 
+app.get("/event", (req, res) => {
+    res.render("event", {
+      channelName: "Aftab",
+    })
+  });
+
+  app.get("/event/*", (req, res) => {
+    res.render("404", {
+      ErrorPage: "Opps, this event us page couldn't be found",
+    });
+  });
+  
+
 app.get("/about", (req, res) => {
   res.render("about", {
     channelName: "Aftab",

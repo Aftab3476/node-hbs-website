@@ -1,0 +1,287 @@
+.iso-brand {
+    width: auto;
+    height: 70px;
+  }
+  .bg-navcolor {
+    background-color: #e0e0e0;
+  }
+  .iso-btn {
+    background-color: #2a0054 !important;
+    color: #fff !important;
+  }
+  
+  .iso-list {
+    color: black;
+  }
+  .iso-list:hover {
+    color: #2a0054;
+  }
+  .events-btn {
+    background-color: #ff354f !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    width: 100%;
+  }
+  .sing-btn {
+    background-color: #2a0054 !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    width: 100%;
+  }
+  
+  .btn-view {
+    background-color: #2a0054 !important;
+    color: #fff !important;
+  }
+  
+  .device-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .isodate-form {
+    background-color: #f6f6f6 !important;
+    border: none !important;
+  }
+  
+  .isodate-form:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: rgba(23, 22, 26, 0.07) !important;
+  }
+  .owl-image {
+    width: 200px !important;
+    height: auto;
+    margin-left: 30%;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .btn-send {
+    background-color: #2a0054 !important;
+    color: #ff354f;
+    border-radius: 7px;
+  }
+  .btn-send:hover {
+    background-color: #ff354f !important;
+    color: #fff;
+    border-radius: 7px;
+  }
+  
+  .next-event {
+    font-size: 58px;
+    font-weight: 700;
+    color: #2a0054;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .next-event {
+      font-size: 41px;
+    }
+    .suggest {
+      font-size: 45px !important;
+    }
+  }
+  @media screen and (min-width: 501px) and (max-width: 1000px) {
+    .next-event {
+      font-size: 42px;
+    }
+    .suggest {
+      font-size: 48px !important;
+    }
+  }
+  @media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .suggest {
+      font-size: 50px !important;
+    }
+  }
+  
+  .last-isodate {
+    width: auto;
+    height: 200px;
+  }
+  
+  .circul {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+  }
+  .circul:hover {
+    background-color: #2a0054;
+    color: #fff;
+  }
+  .icon {
+    padding-top: 7px;
+    padding-left: 10px;
+    font-size: 22px;
+  }
+  
+  * {
+    font-family: "Heebo", sans-serif;
+  }
+  
+
+  /* about page css details */
+
+  .about-us {
+    font-weight: 700;
+    color: #2a0054;
+    font-size: 50px;
+  }
+  .about-swipe {
+    color: #ff0596;
+    font-weight: 650;
+    font-size: 25px;
+  }
+  .about-para {
+    font-size: 15px;
+  }
+  .about-cheak {
+    color: #2a0054;
+    font-weight: 650;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .about-video {
+    width: 100%;
+    height: 600px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .about-video {
+      height: 250px;
+    }
+    .about-chek {
+      font-size: 35px !important;
+    }
+  }
+  @media screen and (min-width: 501px) and (max-width: 800px) {
+    .about-video {
+      height: 320px;
+    }
+    .about-chek {
+      font-size: 35px !important;
+    }
+  }
+  @media screen and (min-width: 801px) and (max-width: 1000px) {
+    .about-video {
+      height: 450px;
+    }
+    .about-chek {
+      font-size: 35px !important;
+    }
+  }
+  
+  @media screen and (min-width: 1001px) {
+    .about-video {
+      height: 580px;
+    }
+    .about-chek {
+      font-size: 47px !important;
+    }
+  }
+  
+  .first {
+    font-weight: 700;
+    padding-top: 10px;
+  }
+  
+  .about-icn {
+    font-size: 40px;
+  }
+  .about-icn:hover {
+    color: #a31b1b;
+  }
+  
+  .about-vebts {
+    color: #ff0596;
+    font-weight: 765;
+  }
+  
+  .about-chek {
+    color: #2a0054;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 50px;
+  }
+  .about-from {
+    font-weight: 700;
+    color: #ff0596;
+    padding-top: 8px;
+  }
+  
+  .about-iso {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .about-three {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .about-top {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .posted-isodate {
+    position: relative;
+    bottom: 54%;
+    left: 13%;
+    width: 85%;
+    color: #fff;
+  }
+  .insta {
+    font-weight: 700;
+    padding-top: 50px;
+  }
+  .stop-image {
+    height: 300px;
+    width: 300px;
+  }
+  .insta-post {
+    border: none !important;
+  }
+  .insta-post:hover {
+    background: aliceblue;
+  }
+  * {
+    font-family: "Heebo", sans-serif;
+  }
+  
+  .insta-post1 {
+    background-image: url("../Assets/eye-lence.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+  }
+  .insta-post2 {
+    background-image: url("../Assets/stop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+  }
+  .insta-post3 {
+    background-image: url("../Assets/hungry.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+  }
+  .insta-post4 {
+    background-image: url("../Assets/heartt.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+  }
+  .insta-post5 {
+    background-image: url("../Assets/average.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+  }
+  .insta-post6 {
+    background-image: url("../Assets/guriya.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+  }
+  

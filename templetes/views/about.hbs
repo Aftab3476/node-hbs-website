@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20cdb0d9fc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    {{!-- <div class="bg-navcolor fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="#" class="navbar-brand">
+                    <img src="../Assets/brand.jpg" class="iso-brand" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-isodate"
+                    aria-controls="navbar-isodate" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-isodate">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ml-4"><a href="/" class="nav-link iso-list"><b>Home</b></a></li>
+                        <li class="nav-item ml-4"><a href="events.html" class="nav-link iso-list"><b>Events</b></a>
+                        </li>
+                        <li class="nav-item ml-4"><a href="about" class="nav-link iso-list"><b>About Us</b></a>
+                        </li>
+                        <li class="nav-item ml-4"><a href="isoblog.html" class="nav-link iso-list"><b>ISO Blog</b></a>
+                        </li>
+                        <a href="login.html" class="btn iso-btn ml-4">Log In</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div> --}}
+    {{> header}}
+    <div class="container" style="margin-top: 130px;">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <h1 class="about-us">About Us.</h1>
+                <h4 class="about-swipe">Swipe Less. Date More.</h4>
+                <h6 class="about-para">Now, more than ever, we see the importance of social connections. Of human
+                    interaction. So why then
+                    have we allowed dating to become so disconnected?</h6>
+                <h6 class="about-para">At ISODATE, we feel you deserve better. Dating should be about people, not
+                    profiles, and we've made
+                    it our mission to get you swiping less and dating more. Our exclusive platform and algorithm allows
+                    you to meet a number of people with one-to-one dates - no breakout rooms, or massive Zoom parties.
+                    Basically, dating without the nonsense (you know, the catfishing, ghosting, bots etc).</h6>
+                <h6 class="about-para">So what are you waiting for? Sign up to one of our events and take your dating to
+                    the next level.
+                </h6>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="../Assets/talking.jpg" class="img-fluid" alt="logo">
+            </div>
+        </div>
+        <hr class="mt-5" style="border: 1px solid #000;">
+    </div>
+    <div class="container">
+        <h5 class="about-cheak">Check out our commercial.</h5>
+        <div class="col-12 px-0">
+            <iframe class="about-video" src="https://www.youtube.com/embed/3j6-F7KwTAI" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <hr style="margin-top: 75px; border: 1px solid #000;">
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center">
+                    <i class="fa-solid fa-calendar-check about-icn"></i>
+                    <h1 class="first">420</h1>
+                    <h5 class="about-vebts">Events</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center">
+                    <i class="fa-solid fa-user-plus about-icn"></i>
+                    <h1 class="first">28700</h1>
+                    <h5 class="about-vebts">Isodates</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center">
+                    <i class="fa-solid fa-user-group about-icn"></i>
+                    <h1 class="first">7600</h1>
+                    <h5 class="about-vebts">Matches</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="text-center">
+                    <i class="fa-solid fa-eye-slash about-icn"></i>
+                    <h1 class="first">5100</h1>
+                    <h5 class="about-vebts">People saved from being catfished</h5>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-5" style="border: 1px solid #000;">
+    </div>
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <h1 class="about-chek">Check out our Blog.</h1>
+                <h4 class="about-from">From success stories to future events!</h4>
+                <h6 class="about-iso">ISO for the best virtual date ideas? ISO tall dark and handsome? ISO the love of
+                    your life? ISO your car keys? We might not be able to help with the last one, but for everything
+                    else: In Search Of is here.
+                </h6>
+                <h6 class="about-iso">When it comes to relationships, love or dating - both virtual and in real life -
+                    we’ve got you covered (and we'll tell you the truth, as we don't know you. That independent opinion
+                    is key).</h6>
+            </div>
+            <div class="col-md-6 col-12">
+                <img src="../Assets/vegan.jpg" class="img-fluid" alt="logo">
+            </div>
+        </div>
+        <hr style="border: 1px solid #000; margin-top: 100px;">
+    </div>
+    <div class="container" style="margin-top: 80px;">
+        <div class="row">
+            <div class="col-lg-6 mb-3 col-12">
+                <div class="row" onmouseenter="showHoverdata('three-major')"
+                    onmouseleave="hideHoverdata('three-major')">
+                    <div class="col-md-6 col-12">
+                        <img src="../Assets/phone-smile.jpg" class="img-fluid" alt="logo">
+                        <div class="posted-isodate" id="three-major" style="display: none;">
+                            <div class="row">
+                                <div class="">
+                                    <img src="../Assets/negative.jpg" class="img-fluid"
+                                        style="border-radius: 50%;" alt="logo">
+                                </div>
+                                <div class="pl-3">
+                                    <h6>Posted by Isodatewp</h6>
+                                    <h6>29 August 2021</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <p class="about-top">Top Tips 15 min read</p>
+                        <h5 class="about-three">Three major dating issues solved by video speed dating</h5>
+                        <h6 class="pt-4">Read More <i class="fa-solid fa-arrow-right-long "></i></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3 col-12">
+                <div class="row" onmouseenter="showHoverdata('dating')" onmouseleave="hideHoverdata('dating')">
+                    <div class="col-md-6 col-12">
+                        <img src="../Assets/selfi-phone.jpg" class="img-fluid" alt="logo">
+                        <div class="posted-isodate" id="dating" style="display: none;">
+                            <div class="row">
+                                <div class="">
+                                    <img src="../Assets/negative.jpg" class="img-fluid"
+                                        style="border-radius: 50%;" alt="logo">
+                                </div>
+                                <div class="pl-3">
+                                    <h6>Posted by Isodatewp</h6>
+                                    <h6>29 August 2021</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <p class="about-top">Top Tips 15 min read</p>
+                        <h5 class="about-three">Dating, meet Video (and four reasons why you should too)</h5>
+                        <h6 class="pt-4">Read More <i class="fa-solid fa-arrow-right-long "></i></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr style="border: 1px solid #000; margin-top: 75px;">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12 mb-3">
+                <div class="pt-5">
+                    <img src="../Assets/hello.jpg" class="img-fluid" alt="logo">
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <h1 class="suggest">Contact Us.</h1>
+                <h5 style="color: #ff0596; font-weight: 700;">Leave your email below.</h5>
+                <label class="pt-3" style="font-size: 15px;"><b>Your Name (required)</b></label> <br>
+                <input type="text" class="form-control shadow-md isodate-form py-4">
+
+                <label class="pt-3" style="font-size: 15px;"><b>Your Email (required)</b></label> <br>
+                <input type="text" class="form-control shadow-md isodate-form py-4">
+                <div class="col-lg-4 col-md-6 col-12 pl-0">
+                    <button class="btb btn-send px-5 py-2 mt-2 btn-block"><b>Send</b></button>
+                </div>
+            </div>
+        </div>
+        <hr style="border: 1px solid #000; margin-top: 75px;">
+    </div>
+    <div class="container">
+        <h3 class="text-center insta">Check us out on Instagram</h3>
+        <div class="row" style="padding-top: 75px;">
+            <div class="col-lg-3 col-md-3 col-6 mb-4">
+                <div class="card insta-post insta-post1">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6 mb-4">
+                <div class="card insta-post insta-post2">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6 mb-4 ">
+                <div class="card insta-post insta-post3">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6 mb-4 ">
+                <div class="card insta-post insta-post4">
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-3 col-6 mb-4">
+                <div class="card insta-post insta-post5">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <div class="card insta-post insta-post6">
+                </div>
+            </div>
+        </div>
+        <hr style="border: 1px solid #000; margin-top: 90px;">
+    </div>
+    <div class="container" style="margin-top: 100px;">
+        <div class="row pb-5">
+            <div class="col-lg-3 col-mg-6 col-12 mb-3">
+                <img src="../Assets/brand.jpg" class="last-isodate" alt="logo">
+            </div>
+            <div class="col-lg-3 col-mg-6 col-12 mb-3">
+                <ul class="navbar-nav">
+                    <li class="nav-item" style="color: #2A0054;"><b>Press/Media</b></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark"><b>Luke@isodate.co</b></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-mg-6 col-12 mb-3">
+                <ul class="navbar-nav">
+                    <li class="nav-item" style="color: #2A0054;"><b>Information</b></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark"><b>info@isodate.co</b></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-mg-6 col-12">
+                <ul class="navbar-nav">
+                    <li class="nav-item" style="color: #2A0054;"><b>Site Policies</b></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark"><b>Terms of Service</b></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark"><b>Cookie Policy</b></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark"><b>Privacy Policy</b></a></li>
+                    <li class="nav-item" style="color: #2A0054;"><b>Connect with us on social media</b></li>
+                </ul>
+                <div class="row justify-content-center  pt-4">
+                    <div class="circul">
+                        <i class="fa-brands fa-facebook-f icon"></i>
+                    </div>
+                    <div class="circul ml-4">
+                        <i class="fa-brands fa-instagram icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-5">
+    </div>
+
+    <script>
+        function showHoverdata(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+
+        function hideHoverdata(id2) {
+            document.getElementById(id2).style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>
